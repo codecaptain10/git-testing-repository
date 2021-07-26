@@ -10,4 +10,12 @@ Update 26.07.2021: Testing fundamental git commands
 	- git commit -m " " / git commit -a -m " " 
 	- git push
 	- git log
+	
+Update 27.06.2021: .gitignore file
+
+	- A few methods to create a gitignore file:
+		1) By creating new repository in GitHub
+		2) Templates on GitHub
+		3) gitignore.io website
+		4) atlassian git ignore patterns website
 
