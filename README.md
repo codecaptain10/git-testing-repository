@@ -22,3 +22,10 @@ Update 27.06.2021: .gitignore file
 		3) gitignore.io website
 		4) atlassian git ignore patterns website
 
+Update 27.06.2021: branch commands
+	
+	- git branch						(branche status)	
+	- git branch <name>					(create new branch)
+	- git checkout <branch-name>		(change actual branche)
+	- git push -u origin <branche-name> (first push of new branch)
+	- git checkout -b <branche-name>	(new branch and change branche in one step)
