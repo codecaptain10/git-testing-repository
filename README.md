@@ -35,10 +35,19 @@ Update 27.07.2021: branch commands
 Update 27.07.2021: branch merge
 
 	- 2 possibilities to merge:
-		- fast forward merge
-		- no fast forward merge
+		- fast forward merge	(actual branch is new main branch)
+		- no fast forward merge	(creat one branch from two merged branches)
 	- Commands:
 		- git merge <branch-name>	(branch-name -> actual branche)
-		- git push 					(by fast forward)
+		- git push 					
+	- fast forward merge:
+		- git merge <branch-name>
+		- actual branch is now new main branch
+		- git push
+	- no fast forward merge:
+		- git merge <branch>
+		- auto commit from git to do one branch from two branches
+		- git push
+	
 		
-Update 27.07.2021: Tester
+
