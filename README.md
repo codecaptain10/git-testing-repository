@@ -41,10 +41,14 @@ Update 27.07.2021: branch merge
 		- git merge <branch-name>	(branch-name -> actual branche)
 		- git push 					
 	- fast forward merge:
+		- do commits on new branch (but don't push!)
+		- git checkout main
 		- git merge <branch-name>
 		- actual branch is now new main branch
 		- git push
 	- no fast forward merge:
+		- do commits on branches (but don't push!)
+		- git checkout main
 		- git merge <branch>
 		- auto commit from git to do one branch from two branches
 		- git push
