@@ -21,6 +21,8 @@ Update 27.06.2021: .gitignore file
 		2) Templates on GitHub
 		3) gitignore.io website
 		4) atlassian git ignore patterns website
+		
+Update: Switched to test-branch
 
 Update 27.06.2021: branch commands
 	
