@@ -11,7 +11,7 @@ Update 26.07.2021: Testing fundamental git commands
 	- git push
 	- git log
 	
-Update 27.06.2021: .gitignore file
+Update 27.07.2021: .gitignore file
 
 	- Better security
 	- Good for ressource and performance
@@ -22,12 +22,22 @@ Update 27.06.2021: .gitignore file
 		3) gitignore.io website
 		4) atlassian git ignore patterns website
 		
-Update: Switched to test-branch
 
-Update 27.06.2021: branch commands
+Update 27.07.2021: branch commands
 	
 	- git branch						(branche status)	
 	- git branch <name>					(create new branch)
 	- git checkout <branch-name>				(change actual branche)
 	- git push -u origin <branche-name> 			(first push of new branch)
 	- git checkout -b <branche-name>			(new branch and change branche in one step)
+	
+	
+Update 27.07.2021: branch merge
+
+	- 2 possibilities to merge:
+		- fast forward merge
+		- no fast forward merge
+	- Commands:
+		- git merge <branch-name>	(branch-name -> actual branche)
+		- git push 					(by fast forward)
+		
