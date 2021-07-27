@@ -41,8 +41,4 @@ Update 27.07.2021: branch merge
 		- git merge <branch-name>	(branch-name -> actual branche)
 		- git push 					(by fast forward)
 		
-<<<<<<< HEAD
-Update: Hello main branch!!!
-=======
-Update: Hello third-test-branch!
->>>>>>> third-test-branche
+Update 27.07.2021: Hier is your TEST!
