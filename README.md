@@ -53,5 +53,21 @@ Update 27.07.2021: branch merge
 		- auto commit from git to do one branch from two branches
 		- git push
 	
+Update 01.08.2021: git stash
+
+		- git stash
+		- git stash list
+		- git stash show <stash@{i}>
+		- git stash show <stash@{i}> -p
+		- git stash save "[change description]"
+		- git stash apply
+		- git stash pop
+		- git stash apply <stash@{i}>
+		- git stash pop <stash@{i}>
+		- git stash drop <stash@{i}>
+		- git stash clear
+		- git stash -u
+		- git stash -a
+		- git stash branche <branche-name> <stash@{i}>
 		
 
