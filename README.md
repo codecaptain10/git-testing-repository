@@ -54,20 +54,29 @@ Update 27.07.2021: branch merge
 		- git push
 	
 Update 01.08.2021: git stash
-
+	
+	- Put on into stash 
 		- git stash
+	- Checkout stash status
 		- git stash list
+	- Checkout what is in a stash commit
 		- git stash show <stash@{i}>
 		- git stash show <stash@{i}> -p
+	- To diffrence the stash commits
 		- git stash save "[change description]"
+	- Put changes from stash into code
 		- git stash apply
 		- git stash pop
 		- git stash apply <stash@{i}>
 		- git stash pop <stash@{i}>
+	- Remove a stash commit from stash
 		- git stash drop <stash@{i}>
+	- Clear stash
 		- git stash clear
+	- For not in index files and .ignore files
 		- git stash -u
 		- git stash -a
+	- Creat a branch from a stash commit
 		- git stash branche <branche-name> <stash@{i}>
 		
 
