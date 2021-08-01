@@ -79,4 +79,38 @@ Update 01.08.2021: git stash
 	- Creat a branch from a stash commit
 		- git stash branche <branche-name> <stash@{i}>
 		
+Update 01.08.2021: merge conflicts
+	
+	- Conflicts when we work on the same file in the same place on two other branches
+	- Conflicts by git merge
+	- To solve these conflicts we must compare two files and decide what we want in code and what not
+	- In companies we should consult our decision with other programmer
+	- Example:
+		- branch: feature-a
+			Change some files
+			git status
+			git add "<files>"
+			git commit -m "<description>"
+			git push -u origin feature-a
+			git checkout main
+		- branch: main
+			Change the same files
+			git status
+			git add <file>
+			git commit -m "<description"
+			git push
+		- merge process: feature-a to main
+			git merge feature-a
+			merge conflict!
+			To solve: decide in editor what you want in code what not
+			git add <files>
+			git commit -m "<description>"
+			git push
+	- Tree conflicts: 
+		- We work on feature-a on some file
+		- On branch main this file was remove
+		- By 'git merge' we can decide, if we want to add this file or remove from repository
+			
+			
+			
 
