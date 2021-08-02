@@ -111,7 +111,18 @@ Update 01.08.2021: merge conflicts
 		- We work on feature-a on some file
 		- On branch main this file was remove
 		- By 'git merge' we can decide, if we want to add this file or remove from repository
-
+		
+Update 02.08.2021: reverting changes
+	
+	- Checkout to a commit from past
+		- git checkout <commit id>
+	- Reverse changes maded in a commit
+		- git revent <commit id>
+	- Remove commit from repository history
+		- git resset --mixed <commit id>
+		- git resset --soft <commit id>
+		- git resset --hard <commit id>
+		
 
 
 
