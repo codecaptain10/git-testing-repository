@@ -5,6 +5,7 @@ Update 26.07.2021: Testing fundamental git commands
 
 	- git clone <repository>
 	- git config --global user.name " "
+	- git config --global user.email " "
 	- git status
 	- git add 
 	- git commit -m " " / git commit -a -m " " 
