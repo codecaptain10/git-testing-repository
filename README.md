@@ -1,4 +1,3 @@
-# git-testing-repository
 This is my testing repository to level up my git skills.
 
 Update 26.07.2021: Testing fundamental git commands
@@ -80,6 +79,7 @@ Update 01.08.2021: git stash
 	- Creat a branch from a stash commit
 		- git stash branche <branche-name> <stash@{i}>
 		
+
 Update 01.08.2021: merge conflicts
 
 	- Conflicts when we work on the same file in the same place on two other branches
@@ -113,5 +113,5 @@ Update 01.08.2021: merge conflicts
 		- By 'git merge' we can decide, if we want to add this file or remove from repository
 
 
-		
+
 
