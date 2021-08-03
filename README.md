@@ -123,6 +123,8 @@ Update 02.08.2021: reverting changes
 		- git resset --soft <commit id>
 		- git resset --hard <commit id>
 		
+Update 03.08.2021: ...
+
 
 
 
