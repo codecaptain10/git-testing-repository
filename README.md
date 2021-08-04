@@ -1,17 +1,21 @@
+<h2> GIT & GitHub learning </h2>
+
+**Description:**
 This is my testing repository to level up my git skills.
 
-Update 26.07.2021: Testing fundamental git commands
+<h4>Update 26.07.2021: Testing fundamental git commands</h4>
 
-	- git clone <repository>
-	- git config --global user.name " "
-	- git config --global user.email " "
-	- git status
+	 git clone <repository>
+	 git config --global user.name " "
+	 git config --global user.email " "
+	 git status
 	- git add 
 	- git commit -m " " / git commit -a -m " " 
 	- git push
 	- git log
 	
-Update 27.07.2021: .gitignore file
+	
+<h4>Update 27.07.2021: .gitignore file </h4>
 
 	- Better security
 	- Good for ressource and performance
@@ -23,7 +27,7 @@ Update 27.07.2021: .gitignore file
 		4) atlassian git ignore patterns website
 		
 
-Update 27.07.2021: branch commands
+<h4>Update 27.07.2021: branch commands </h4>
 	
 	- git branch						(branche status)	
 	- git branch <name>					(create new branch)
@@ -32,7 +36,7 @@ Update 27.07.2021: branch commands
 	- git checkout -b <branche-name>			(new branch and change branche in one step)
 	
 	
-Update 27.07.2021: branch merge
+<h4>Update 27.07.2021: branch merge </h4>
 
 	- 2 possibilities to merge:
 		- fast forward merge	(actual branch is new main branch)
@@ -53,7 +57,7 @@ Update 27.07.2021: branch merge
 		- auto commit from git to do one branch from two branches
 		- git push
 	
-Update 01.08.2021: git stash
+<h4>Update 01.08.2021: git stash </h4>
 	
 	- Put on into stash 
 		- git stash
@@ -80,7 +84,7 @@ Update 01.08.2021: git stash
 		- git stash branche <branche-name> <stash@{i}>
 		
 
-Update 01.08.2021: merge conflicts
+<h4>Update 01.08.2021: merge conflicts </h4>
 
 	- Conflicts when we work on the same file in the same place on two other branches
 	- Conflicts by git merge
@@ -112,7 +116,7 @@ Update 01.08.2021: merge conflicts
 		- On branch main this file was remove
 		- By 'git merge' we can decide, if we want to add this file or remove from repository
 		
-Update 02.08.2021: reverting changes
+<h4>Update 02.08.2021: reverting changes </h4>
 	
 	- Checkout to a commit from past
 		- git checkout <commit id>
@@ -123,7 +127,7 @@ Update 02.08.2021: reverting changes
 		- git resset --soft <commit id>
 		- git resset --hard <commit id>
 		
-Update 03.08.2021: ...
+<h4>Update 03.08.2021: ... </h4>
 
 
 
