@@ -148,6 +148,20 @@ This is my testing repository to level up my git skills.
 			- GIT opens you so many windows how many 'reword' you wrote
 			- You change each commit in other editor window
 	- DON'T CHANGE commits, which are in GitHub! That can make mistakes and troubles!
+	
+<h4>Update 08.08.2021: GitHub Fork and Pull Request</h4>
+
+	- When user A want update repository from user B
+	- First user A should fork repository from user B
+	- After changes can user A send these changes to user B with a Pull Request
+	- 7 Steps
+		1) GitHub Fork repository from user B (user A)
+		2) Clone repository to local workspace (user A)
+		3) Update repository (user A)
+		4) Commit changes (user A)
+		5) Push changes to remote repository from user A (user A)
+		6) Send Pull Request with changes to user B (user A)
+		7) User B can decide what he will doing with these changes
 
 
 
