@@ -123,12 +123,31 @@ This is my testing repository to level up my git skills.
 	- Reverse changes maded in a commit
 		- git revent <commit id>
 	- Remove commit from repository history
-		- git resset --mixed <commit id>
-		- git resset --soft <commit id>
-		- git resset --hard <commit id>
+		- git reset --mixed <commit id>
+		- git reset --soft <commit id>
+		- git reset --hard <commit id>
+		!Each commend has other level of reset!
 		
-<h4>Update 03.08.2021: ... </h4>
+<h4>Update 08.08.2021: Change commit name </h4>
 
+	- Change commit message in last commit
+		- git commit --amend -m "<message>"
+	- Check the content of the last commit
+		- git show <commit-ID>
+	- Add a file and its changes to last commit
+		- git commit --amend
+	- Change commit message in a few / old commits
+		- git rebase -i <commit source>
+		- Example: 
+			git rebase -i HEAD~4 (last 4 commits)
+		- Important: pick and reword
+			- pick = I won't change this commit message
+			- reword = I will change this commit message
+			- Write reword when you want to change
+			- You don't change message in the first window!
+			- GIT opens you so many windows how many 'reword' you wrote
+			- You change each commit in other editor window
+	- DON'T CHANGE commits, which are in GitHub! That can make mistakes and troubles!
 
 
 
