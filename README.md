@@ -162,6 +162,16 @@ This is my testing repository to level up my git skills.
 		5) Push changes to remote repository from user A (user A)
 		6) Send Pull Request with changes to user B (user A)
 		7) User B can decide what he will doing with these changes
+		
+<h4> Update 11.08.2021: 'git pull' and 'git fetch'
+	
+	- 'git pull'
+		- Download data from the remote repository to your local repository 
+		- And immediately apply the changes to your code
+	- 'git fetch'
+		- Updates the state of your local repository but only in terms of meta data
+		- i.e. it does not modify your code and does not apply changes to your workspace
+
 
 
 
