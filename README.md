@@ -163,7 +163,7 @@ This is my testing repository to level up my git skills.
 		6) Send Pull Request with changes to user B (user A)
 		7) User B can decide what he will doing with these changes
 		
-<h4> Update 11.08.2021: 'git pull' and 'git fetch'
+<h4> Update 11.08.2021: 'git pull' and 'git fetch'</h4>
 	
 	- 'git pull'
 		- Download data from the remote repository to your local repository 
