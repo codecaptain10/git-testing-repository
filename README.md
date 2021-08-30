@@ -200,6 +200,9 @@ This is my testing repository to level up my git skills.
 		5) Writing in an imperative
 			- Bad: "Added", "Changed", "Modifed"
 			- Good: "Add", "Change", "Modife"
+		6) Description content: WHAT and WHY was did
+			- What we did in which task, file
+			- Why we did such operations "Because of ..."
 			
 
 
