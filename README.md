@@ -172,6 +172,24 @@ This is my testing repository to level up my git skills.
 		- Updates the state of your local repository but only in terms of meta data
 		- i.e. it does not modify your code and does not apply changes to your workspace
 
+<h4> Update 30.08.2021: Commit names (good practice)</h4>
+
+	- BAD PRACTICE:
+		-Examples:
+			- "typo"
+			- "more changes"
+			- "add test"
+			- "add file"
+			- "update condition"
+		- Very bad for team work 
+	- Git should make our work easy and more confortable
+	- We need good practice and standards 
+	- GOOD PRACTICE:
+		1) Divide commit for subject and description
+			- Two options
+				- 1) 'git commit' and write description in editor
+				- 2) 'git commit -m <subject> -m <description>'
+			
 
 
 
