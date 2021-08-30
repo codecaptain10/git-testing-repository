@@ -189,7 +189,10 @@ This is my testing repository to level up my git skills.
 			- Two options
 				- 1) 'git commit' and write description in editor
 				- 2) 'git commit -m <subject> -m <description>'
-			
+		2) Limit the number of characters
+			- Short but fully description in commit
+			- Max 50 characters
+			- More as 72 = GIT will cut our commit
 
 
 
