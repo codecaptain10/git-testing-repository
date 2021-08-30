@@ -193,6 +193,9 @@ This is my testing repository to level up my git skills.
 			- Short but fully description in commit
 			- Max 50 characters
 			- More as 72 = GIT will cut our commit
+		3) Uppercase letters at the beginning
+			- Syntactix sugar
+			- Better for look and history reading
 
 
 
