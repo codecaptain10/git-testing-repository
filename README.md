@@ -197,6 +197,10 @@ This is my testing repository to level up my git skills.
 			- Syntactix sugar
 			- Better for look and history reading
 		4) Subject without a dot at the end
+		5) Writing in an imperative
+			- Bad: "Added", "Changed", "Modifed"
+			- Good: "Add", "Change", "Modife"
+			
 
 
 
