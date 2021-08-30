@@ -196,6 +196,7 @@ This is my testing repository to level up my git skills.
 		3) Uppercase letters at the beginning
 			- Syntactix sugar
 			- Better for look and history reading
+		4) Subject without a dot at the end
 
 
 
