@@ -204,6 +204,8 @@ This is my testing repository to level up my git skills.
 			- What we did in which task, file
 			- Why we did such operations "Because of ..."
 			
+<h4> Update 01.09.2021: History review with git log commends</h4>
+			
 
 
 
