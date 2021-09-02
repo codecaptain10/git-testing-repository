@@ -205,6 +205,7 @@ This is my testing repository to level up my git skills.
 			- Why we did such operations "Because of ..."
 			
 <h4> Update 01.09.2021: History review with git log commands</h4>
+
 	1) 'git log'		(last commits)
 	2) 'git log -<number>' 	(last <number> (for ex. 3) commits)
 	3) 'git log --author-<author>'	(show commits from authot)
