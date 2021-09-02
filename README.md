@@ -204,7 +204,35 @@ This is my testing repository to level up my git skills.
 			- What we did in which task, file
 			- Why we did such operations "Because of ..."
 			
-<h4> Update 01.09.2021: History review with git log commends</h4>
+<h4> Update 01.09.2021: History review with git log commands</h4>
+	1) 'git log'		(last commits)
+	2) 'git log -<number>' 	(last <number> (for ex. 3) commits)
+	3) 'git log --author-<author>'	(show commits from authot)
+	4) 'git log --before "<YYYY-MM-DD>"' (show commits before date)
+	5) 'git log --after "<YYYY-MM-DD>"' (show commits after date)
+	6) git log --after "<YYYY-MM-DD>" --before "<YYYY-MM-DD>"' (Commits between before and after)
+	7) 'git log -p' (Show changes in each commit)
+	8) 'git log -<number> -p' (Show last 3 commits with changes)
+	9) 'git log --stat' (Show statics about the changes in commits)
+	10) 'git log --oneline' (Show a list wit commit IDs and description)
+	11) 'git log --oneline --stat' (List of commits with ID, description and statics)
+	12) 'git log --graph' (Create a graph with changes in repository)
+	13) 'git log --oneline --graph' (Optimal graph with changes)
+	14) 'git log --pretty' (Show data ho you want)
+		- Examples:
+			- 'git log --pretty="Hash:%h"'
+			- 'git log --pretty="Hash:%h, Author:%a"'
+		- All options in documetation
+	15) 'git log --grep' (Show commits with concret content)
+		- Example:
+			- 'git log --grep=".css"'
+	16) 'git log -- <file>' (Show commits to concret file)
+		- Examples:
+			- 'git log index.html' (Commits to index.html)
+			- 'git log .css/app.js' (Commits to app.js in ordner .css)
+			
+			
+		
 			
 
 
