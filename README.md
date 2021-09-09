@@ -240,7 +240,7 @@ This is my testing repository to level up my git skills.
 	- How to restore removed commits:
 		- 'git reflog -<numberOfLastCommits>'
 		  'git reflog -6'
-		- Becasue 'git reflog' contains our last changes, we can see what we did (also with removed commits)
+		- 'git reflog' contains our last changes, we can see what we did (also with removed commits)
 		- When we see the history, we can revert a commit
 		- 'git revert <commit-id>'
 		
