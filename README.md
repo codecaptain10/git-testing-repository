@@ -232,9 +232,19 @@ This is my testing repository to level up my git skills.
 			- 'git log index.html' (Commits to index.html)
 			- 'git log .css/app.js' (Commits to app.js in ordner .css)
 			
-<h4> Update 09.09.2021: Restore history with git refolg command</h4>
+<h4> Update 09.09.2021: Restore history with git reflog command</h4>
 	
-	-
+	- Diffrence between 'git log' and 'git reflog'
+		- 'git reflog' is a local history, 'git log' is history with pushed commits
+		- 'git reflog' contains much more informations
+	- How to restore removed commits:
+		- 'git reflog -<numberOfLastCommits>'
+		  'git reflog -6'
+		- Becasue 'git reflog' contains our last changes, we can see what we did (also with removed commits)
+		- When we see the history, we can revert a commit
+		- 'git revert <commit-id>'
+		
+		
 			
 		
 			
