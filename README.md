@@ -232,6 +232,9 @@ This is my testing repository to level up my git skills.
 			- 'git log index.html' (Commits to index.html)
 			- 'git log .css/app.js' (Commits to app.js in ordner .css)
 			
+<h4> Update 09.09.2021: Restore history with git refolg command</h4>
+	
+	-
 			
 		
 			
